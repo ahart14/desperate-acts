@@ -294,6 +294,7 @@ section.hero {
   border: 5px solid #fff;
   text-align: center;
   height: 4rem;
+  background-color: #000;
 }
 .cta:hover {
   border: 5px solid #fff;
