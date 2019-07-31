@@ -116,10 +116,15 @@ textarea {
     text-transform: uppercase;
   }
   h2 {
-    font-size: 6vh;
+    font-size: 4vh;
     margin-bottom: 1rem;
     border-bottom: #333 solid 1px;
   }
+  @media only screen and (min-width: 32em) {
+    .hero-title { 
+      font-size: 6vh; 
+     } 
+   }	
   .page-wrapper {
     max-width: 70rem;
     margin: 0 auto;
