@@ -179,7 +179,7 @@ section.hero {
   max-width: 16em;
   margin: 0;
   font-size: 6vh;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 0.9;
   margin: 0 auto;
   text-align: center;
@@ -259,6 +259,9 @@ section.hero {
 
 .card a {
   text-decoration: none;
+  width: 100%;
+  display: block;
+  margin: .75rem 0 0 0;
 }
 
 .card a:focus {
@@ -269,11 +272,11 @@ section.hero {
   margin-top: 0.75rem;
 }
 
-.card .text > :nth-last-child(6) {
+.card .text > :nth-last-child(2) {
   margin-bottom: 0.75rem;
 }
 
-.card .text > :nth-last-child(5) {
+.card .text > :nth-last-child(1) {
   margin-top: auto;
   padding-top: 0.75rem;
 }
