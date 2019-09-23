@@ -115,7 +115,8 @@ h1,
 h2 {
   text-transform: uppercase;
 }
-h2 {
+h2,
+h2#title {
   font-size: 3vh;
   margin-bottom: 1rem;
   border-bottom: #333 solid 1px;
